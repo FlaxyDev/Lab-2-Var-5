@@ -9,11 +9,6 @@ namespace Lab2
 {
     class Program
     {
-        int GetMax(int[,] matr, int n)
-        {
-            
-            return 1;
-        }
         static void Main(string[] args)
         {
             Random rnd = new Random();
@@ -65,8 +60,6 @@ namespace Lab2
                 maxSum = Math.Max(maxSum, Math.Max(sum1, sum2));
             }
             Console.WriteLine("Max sum " + maxSum);
-
-
         }
     }
 }
