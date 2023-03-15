@@ -50,15 +50,13 @@ namespace Lab2
             }
             int maxSum = 0;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 1; i < n; i++)
             {
                 int row = 0, col = i;
 
                 int sum1 = 0, sum2 = 0;
                 while (col < n && row < n)
                 {
-                    if (row == col)
-                        break;
                     sum1 += matrix[row, col];
                     sum2 += matrix[col, row];
                     row++;
